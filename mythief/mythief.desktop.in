@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Mythief
+_Comment=Mythief application
+Categories=GNOME;Utility;
+Exec=mythief
+Icon=mythief
+Terminal=false
+Type=Application

@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="Web-Browser">
+
+<info>
+  <link type="guide" xref="index#contents"/>
+  <credit type="author">
+    <name>Liki_Liki</name>
+    <email>sefirothonu@gmail.com</email>
+    <years>2016</years>
+  </credit>
+<license href="http://creativecommons.org/licenses/by-sa/3.0/">
+  <p>Creative Commons Attribution-Share Alike 3.0 Unported License</p>
+  </license>
+  <desc>Help for basic functions of Web-Thief Browser</desc>
+</info>
+
+<title>Web-Browser</title>
+<p>Help for basic functions of Web-Thief Browser.</p>
+
+<list>
+    <title>Navigation</title>
+    <item>
+      <p>For navigate to any new url, you need enter a valid url in the Url-Entry and push
+      <key>Enter</key>, and show the results in a box called Web-Browser.</p>
+    </item>
+</list>
+
+<list>
+	<title>Buttons</title>
+    	<item>
+      	<p><gui>Refresh : </gui>Reload current URL ,
+      	in a box called Web-Browser.</p>
+      	</item>
+        <item>
+          <p><gui>Home : </gui> Navigate to http://www.google.com</p>
+        </item>
+        <item>
+          <p><gui>Back : </gui> Only when if possible, navigate to previous URL</p>
+        </item>
+        <item>
+          <p><gui>Forward : </gui> Only when if possible, navigate to next URL</p>
+        </item>  
+    	<item>
+          <p><gui>Zoom In : </gui> Zoom In box called Web-Browser.</p>
+        </item>
+        <item>
+          <p><gui>Zoom Out : </gui> Zoom Out box called Web-Browser.</p>
+        </item>
+        <item>
+          <p><gui>Show/Hide Web-Thief : </gui> Show/Hide the 
+	<link xref="Tool Web-Thief">tools </link>
+	 for extract tags of html code, at the bottom of App.</p>
+        </item>
+  </list>
+<p>See 
+<link xref="examples">Examples </link>
+</p>
+</page>

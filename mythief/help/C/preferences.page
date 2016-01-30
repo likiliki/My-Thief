@@ -1,0 +1,46 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="Tool Web-Thief">
+
+<info>
+  <link type="guide" xref="index#contents"/>
+  <credit type="author">
+    <name>Liki_Liki</name>
+    <email>sefirothonu@gmail.com</email>
+    <years>2016</years>
+  </credit>
+<license href="http://creativecommons.org/licenses/by-sa/3.0/">
+  <p>Creative Commons Attribution-Share Alike 3.0 Unported License</p>
+  </license>
+  <desc>Tool for extract tags of html Source Code.</desc>
+</info>
+
+<title>Tool Web-Thief</title>
+	<p>Theese tool of Web-Thief can extract Source Code of any web.</p>	
+
+	<list>
+		<title>To Extract tags of html</title>
+		<item>
+			<p><gui>1- Valid URL.</gui></p>
+		</item>
+		<item>
+			<p><gui>2- Begin of search:</gui> The begin of any tag, for example:   
+			<code> script </code></p>
+		</item>
+		<item>
+			<p><gui>3- End  of  search:</gui> The end of search, for example:   
+			<code> script>  </code> </p>
+		</item>
+	</list>
+	
+    <note style="tip">        
+        <p>Make sure the parametres of find are correctly.</p>
+	</note>
+    <note>
+	<p>First, can see all <gui>Source Code</gui> of web , 
+	To identificate tags for extraction.</p>
+    </note>
+<p>See 
+<link xref="examples">Examples </link>
+</p>
+</page>

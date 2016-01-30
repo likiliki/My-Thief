@@ -1,0 +1,47 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="examples">
+
+<info>
+  <link type="guide" xref="index#contents"/>
+  <credit type="author">
+    <name>Liki_Liki</name>
+    <email>sefirothonu@gmail.com</email>
+    <years>2016</years>
+  </credit>
+<license href="http://creativecommons.org/licenses/by-sa/3.0/">
+  <p>Creative Commons Attribution-Share Alike 3.0 Unported License</p>
+  </license>
+  <desc>Practice examples</desc>
+</info>
+
+<title>Examples</title>
+	<p>Examples for
+	<link xref="Tool Web-Thief">tools </link>
+	of Web-Thief, to extract html tags.</p>
+
+<list>
+    <title>Examples for tool</title>
+<item>
+      <p>Extract all IMAGES of web</p>    
+	<media type="image" mime="image/png" src="figures/img.png">[icon]</media>
+    </item>
+<item>
+      <p>Extract all SCRIPTS of web</p>    
+	<media type="image" mime="image/png" src="figures/script.png">[icon]</media>
+    </item>
+<item>
+      <p>Extract all LINKS of web</p>    
+	<media type="image" mime="image/png" src="figures/link.png">[icon]</media>
+    </item>
+<item>
+      <p>More specific example</p>    
+	<media type="image" mime="image/png" src="figures/espec.png">[icon]</media>
+    </item>
+<item>
+      <p>Show All Source Code of Web</p>    
+	<media type="image" mime="image/png" src="figures/all.png">[icon]</media>
+    </item>
+
+</list>
+</page>
