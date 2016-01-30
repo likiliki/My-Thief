@@ -82,11 +82,11 @@ def set_up_logging(opts):
 
 def get_help_uri(page=None):
     # help_uri For Debug Mode----------------------------------------------------
-    here = os.path.dirname(__file__)
-    help_uri = os.path.abspath(os.path.join(here, '..', 'help', 'C/index.page'))
+    #here = os.path.dirname(__file__)
+    #help_uri = os.path.abspath(os.path.join(here, '..', 'help', 'C/index.page'))
 
     # help uri For Package Mode--------------------------------------------
-    #help_uri = os.path.abspath("/usr/share/help/C/mythief/index.page"))
+    help_uri = os.path.abspath("/usr/share/help/C/mythief/index.page")
 
     print ("help page >> " + help_uri)
     return help_uri
