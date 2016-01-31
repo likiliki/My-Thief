@@ -1,7 +1,8 @@
 [Desktop Entry]
-_Name=Mythief
-_Comment=Mythief application
-Categories=GNOME;Utility;
+Version=1.0
+_Name=Mythief Web-Browser
+_Comment=Mythief Web-Browser
+Categories=GNOME;GTK;Network;WebBrowser;
 Exec=mythief
 Icon=mythief
 Terminal=false

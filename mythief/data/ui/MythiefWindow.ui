@@ -162,16 +162,6 @@
                         <property name="can_focus">False</property>
                       </object>
                     </child>
-                    <child>
-                      <object class="GtkImageMenuItem" id="mnu_preferences">
-                        <property name="label">gtk-preferences</property>
-                        <property name="use_action_appearance">False</property>
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="use_underline">True</property>
-                        <property name="use_stock">True</property>
-                      </object>
-                    </child>
                   </object>
                 </child>
               </object>
@@ -433,7 +423,6 @@
                 <property name="halign">start</property>
                 <property name="valign">center</property>
                 <property name="hexpand">True</property>
-                <property name="label" translatable="yes">Web-Browser  &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;</property>
                 <property name="ellipsize">start</property>
               </object>
               <packing>
@@ -447,7 +436,6 @@
                 <property name="can_focus">False</property>
                 <property name="halign">end</property>
                 <property name="hexpand">True</property>
-                <property name="label" translatable="yes">&lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt;   Show Results    </property>
               </object>
               <packing>
                 <property name="left_attach">1</property>

@@ -29,7 +29,7 @@ from mythief.PreferencesMythiefDialog import PreferencesMythiefDialog
 import webbrowser, codecs, commands, os
 from urllib import urlopen
 
-url = "www.google.es"   # GLOBAL URL
+url = "www.google.com"   # GLOBAL URL
 
 # See mythief_lib.Window.py for more details about how this class works
 class MythiefWindow(Window):    
@@ -65,6 +65,9 @@ class MythiefWindow(Window):
         self.grid4 = self.builder.get_object("grid4") 
         self.buttonshowthief = self.builder.get_object("buttonshowthief") 
         self.buttonthief = self.builder.get_object("buttonthief")
+        self.label3 = self.builder.get_object("label3")
+        self.label1 = self.builder.get_object("label1")
+        self.paned2 = self.builder.get_object("paned2")
                      
         self.entry1.set_text(url)   
         self.entry2.set_text("<img")
@@ -78,8 +81,7 @@ class MythiefWindow(Window):
         
         self.webresult = WebKit.WebView()
         self.scrolledwindow2.add(self.webresult)
-        self.webresult.show()
-        self.mythief_window.maximize()
+        self.webresult.show()        
         
         # asign class O.S to elements of APP
         context = self.grid4.get_style_context()
@@ -89,11 +91,13 @@ class MythiefWindow(Window):
         context = self.grid5.get_style_context() 
         context.add_class(Gtk.STYLE_CLASS_PRIMARY_TOOLBAR) 
         
-        self.grid3.hide()
+        self.paned2.hide()
+        self.grid3.hide() 
+        self.mythief_window.set_default_size(800, 600)
+        #self.mythief_window.maximize()
         
-        for attr in dir(Gtk.ButtonsType):
+        for attr in dir(self.label3):
             print (attr)
-        #print self.grid3.get_visible()
         
     def on_refreshbutton_clicked(self, widget): # Button Refresh
         self.webview.reload() 
@@ -138,9 +142,15 @@ class MythiefWindow(Window):
     def on_buttonshowthief_clicked(self, widget): # button Web-Thief
         tool = self.grid3.get_visible()
         if tool:
+        	self.label1.set_text("")
+        	self.label3.set_text("")
             self.grid3.hide()
+            self.paned2.hide()
         else:
-            self.grid3.show()   
+        	self.label1.set_text("> > > > > > > >")
+        	self.label3.set_text("< < < < < < < <   Show Results    ")
+            self.grid3.show() 
+            self.paned2.show()
             
     def on_buttonthief_clicked(self, widget): # button buttonthief
         file_location = ".temp_find.html"
@@ -216,4 +226,7 @@ class MythiefWindow(Window):
             os.remove('.temp_find.html_utf8_force')
         except: 
             pass
+
+	def on_mnu_save_activate(self, widget): # Save results as file 
+		print "on_mnu_save_activate"             
         
